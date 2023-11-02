@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* src/App.css */
+.App {
+    text-align: center;
+    font-family: Georgia,
+        serif;;
+    background-color: #f4f4f4;
+    padding: 5%;
+    color: #343a40;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgba(225, 225, 225, 0.7);
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.card {
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+card img {
+    max-height: 200px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.card-text {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+/* Style for the "Learn More" button */
+.btn-primary {
+    background-color: #0095ff;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.btn-primary:hover {
+    background-color: #d2d211;
+}
+
+/* Style for the links in the Navbar */
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        border-bottom: 1px solid #3498db;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 10re;
+}
+.navbar-brand {
+    color: #007bff;
+        
+        font-size: 24px;
+        
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+.red-text{
+    color:red;
+}
+
+.container-margin{
+    margin-top: 70px;
 }
